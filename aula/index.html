@@ -8,10 +8,10 @@
     
     
     
-    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Home - Online Book</title>
+    <title>Randoop - Online Book</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
     <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href="css/bootstrap-custom.min.css" rel="stylesheet">
-    <link href="css/base.min.css" rel="stylesheet">
-    <link href="css/cinder.min.css" rel="stylesheet">
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
 
     
         
@@ -40,7 +40,7 @@
      
 </head>
 
-<body class="homepage" >
+<body>
 
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -58,7 +58,7 @@
 
             <!-- Main title -->
 
-            <a class="navbar-brand" href=".">Online Book</a>
+            <a class="navbar-brand" href="..">Online Book</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -67,14 +67,14 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">Home</a>
+                    <li >
+                        <a href="..">Home</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="notebooks/hello-world/">Notebook</a>
+                        <a href="../notebooks/hello-world/">Notebook</a>
                     </li>
                 
                 
@@ -85,19 +85,19 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Aulas <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="aula/">Selenium</a>
+    <a href="./">Selenium</a>
 </li>
 
                         
                             
-<li >
-    <a href="aula/">Randoop</a>
+<li class="active">
+    <a href="./">Randoop</a>
 </li>
 
                         
@@ -113,13 +113,13 @@
                             <i class="fas fa-search"></i> Search
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="./">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="notebooks/hello-world/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -133,95 +133,33 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
-            <li class="second-level"><a href="#commands">Commands</a></li>
+        <li class="first-level active"><a href="#et-circuitu-enim-at-hinc-discrimine-quid">Et circuitu enim at hinc discrimine quid</a></li>
+            <li class="second-level"><a href="#corpus-prohibebant-pervia">Corpus prohibebant pervia</a></li>
                 
-            <li class="second-level"><a href="#project-layout">Project layout</a></li>
+            <li class="second-level"><a href="#duce-non-in-puer">Duce non in puer</a></li>
                 
-            <li class="second-level"><a href="#syntax-highlighting">Syntax Highlighting</a></li>
-                
-            <li class="second-level"><a href="#text-example">Text Example</a></li>
-                
-            <li class="second-level"><a href="#embed-tweets">Embed Tweets</a></li>
-                
-            <li class="second-level"><a href="#embed-videos">Embed Videos</a></li>
-                
-            <li class="second-level"><a href="#embed-medium-articles">Embed Medium Articles</a></li>
+            <li class="second-level"><a href="#custodia-opem">Custodia opem</a></li>
                 
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
-<ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
-</ul>
-<h2 id="project-layout">Project layout</h2>
-<div class="codehilite"><pre><span></span><code><span class="err">mkdocs.yml    # The configuration file.</span>
-<span class="err">docs/</span>
-<span class="err">    index.md  # The documentation homepage.</span>
-<span class="err">    ...       # Other markdown pages, images and other files.</span>
-</code></pre></div>
-
-
-<h2 id="syntax-highlighting">Syntax Highlighting</h2>
-<div class="codehilite"><pre><span></span><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="p">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="p">)</span> <span class="p">{</span>
-        <span class="c1">// Prints &quot;Hello, World&quot; to the terminal window.</span>
-        <span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&quot;Hello, World&quot;</span><span class="p">);</span>
-    <span class="p">}</span>
-
-<span class="p">}</span>
-</code></pre></div>
-
-
-<h2 id="text-example">Text Example</h2>
-<p>Achilles errant mali aquas illa inplevit: mortisque summos horrescere dederat
-mille spoliis, tibi est culpatque, filis! Erat laqueo <a href="http://nostris.com/corporarite">fontibus
-miracula</a> qui scilicet, tibi stabantque est ubi,
-non. <strong>Erit cum venenum</strong> securus arma quo, trahit strepitans qui erat, tua his
-restabat catulo referentia arcus, numerumque. Somnis verbis, erat atque natos,
-et inde ut.</p>
-<blockquote>
-<p>Quoque sacer incensaque flumina! Promissa et hospes, radiante! Est arte et
-terraeque summo indagine, Ulixes minitantem ovantem iunctae, vulnera, secura
-<a href="http://prius.com/">et parabam</a>. Nec tollit artus Melampus, fit et iram
-confusa: ait culpae, est. Duxit verba nomina egisse et Eueninae omnia; recepi
-socii stupuit gener.</p>
-</blockquote>
-<ol>
-<li>Iuveni natum terga nobilitate vocato omnes Phocaico</li>
-<li>Virgo metitur caerula</li>
-<li>Solum vim maxima peperit et tenuere fuerant</li>
-<li>Utinamque idem ferro in ingenti sede mixta</li>
-</ol>
-<h2 id="embed-tweets">Embed Tweets</h2>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">You can now shoot, edit and share video on Twitter. Capture life&#39;s most moving moments from your perspective. <a href="http://t.co/31JoMS50ha">pic.twitter.com/31JoMS50ha</a></p>&mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/560070183650213889?ref_src=twsrc%5Etfw">January 27, 2015</a></blockquote>
-
-<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-<h2 id="embed-videos">Embed Videos</h2>
-<iframe width="600" height="400" src="https://www.youtube.com/embed/O6Pu3HhkmRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h2 id="embed-medium-articles">Embed Medium Articles</h2>
-<div id="retainable-rss-embed" 
-data-rss="https://medium.com/feed/retainable,
-https://medium.com/feed/vue-mastery"
-data-maxcols="3" 
-data-layout="grid" 
-data-poststyle="inline" 
-data-readmore="Read the rest" 
-data-buttonclass="btn btn-primary" 
-data-offset="-100"></div>
-
-<footer>
-<script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
-</footer></div>
+<h1 id="et-circuitu-enim-at-hinc-discrimine-quid">Et circuitu enim at hinc discrimine quid</h1>
+<h2 id="corpus-prohibebant-pervia">Corpus prohibebant pervia</h2>
+<p>Lorem markdownum regalia; amans vires Ligdum. Duris et tamen. Per pars, ut
+modico; nec patent, prece.</p>
+<h2 id="duce-non-in-puer">Duce non in puer</h2>
+<p>Ales at candida veluti tabuit vecordia Romana saucia cremarat quae abstulit
+turba nam atros levius transitus, Aeacide et <em>iura</em>. Adit parte sacrificos rerum
+altera, tempus parte expugnacior demum, longis, ad qui contigero corpus. <strong>Quod
+ea tamen</strong>, urbem hoc herbas numquam in Pleuron, stagna. In erat eripiunt?
+Rector caelestum tamen protinus in iussit guttae, pectore siderea, hirtus hasta
+namque repurgat.</p>
+<h2 id="custodia-opem">Custodia opem</h2>
+<p>Vidisset flammae, et perfida amoris, Demoleon obstitit Ganymedis infelix credat!
+Illo ipsis abscidit et <strong>maxima</strong> protinus me Ianthe violabere, virtutem.
+Montana sed cornua gramine procul servant gelidis, locum nec sacra <a href="http://dapibus.org/">latratu
+nymphae</a> Cytoriaco caput.</p></div>
         
         
     </div>
@@ -237,7 +175,7 @@ data-offset="-100"></div>
         
     </footer>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
 
     
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
@@ -245,10 +183,10 @@ data-offset="-100"></div>
     <script>hljs.initHighlightingOnLoad();</script>
     
 
-    <script>var base_url = "."</script>
+    <script>var base_url = ".."</script>
     
-    <script src="js/base.js"></script>
-    <script src="search/main.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -319,8 +257,3 @@ data-offset="-100"></div>
     </body>
 
 </html>
-
-<!--
-MkDocs version : 1.1.2
-Build Date UTC : 2020-07-08 00:42:29.367429+00:00
--->
